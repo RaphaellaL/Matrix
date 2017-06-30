@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <title>Formulário</title><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.css">
+    
+  </head>
+  <body>
+  
+    <div class="card-panel teal lighten-3"><big><big><big><big><b><center>Ficha de Inscrição</center></b></big></big></big></big></div>  
+  </div>
+
+
+        <form method="post" name="formulario" id="formulario">
+      
+	<div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email:</label>
+        </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input  id="Nome:" type="text" class="validate">
+          <label for="first_name">Nome:</label>
+        </div>
+        <label>Sexo</label>
+  <select class="browser-default">
+    <option value="1" disabled selected></option>
+    <option value="1">Masculino</option>
+    <option value="2">Feminino</option>
+    
+  </select>
+  
+    <label>Curso</label>
+    
+  <select class="browser-default">
+    <option value="1" disabled selected></option>
+    <option value="1">Técnico em informática</option>
+    <option value="2">Técnico em Alimentos</option>
+    <option value="3">Técnico  em Agropecuária</option>
+    </div>
+    
+  </select>
+            
+
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="text" type="text" class="validate">
+          <label for="text">Endereço para Correspondência:</label>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="text" type="text" class="validate">
+          <label for="text">Cep:</label>
+        </div>
+      </div>
+    </form>
+    <div class="row">
+        <div class="input-field col s3">
+          <input id="text" type="text" class="validate">
+          <label for="text">Municipio:</label>
+        </div>
+        <div class=" col s3">
+          <label>UF</label>
+    
+  <select class="browser-default">
+          <option value="1" disabled selected></option>
+    <option value="AC">AC</option>
+            <option value="AL">AL</option>
+            <option value="AM">AM</option>
+            <option value="AP">AP</option>
+            <option value="BA">BA</option>
+            <option value="CE">CE</option>
+            <option value="DF">DF</option>
+            <option value="ES">ES</option>
+            <option value="GO">GO</option>
+            <option value="MA">MA</option>
+            <option value="MG">MG</option>
+            <option value="MS">MS</option>
+            <option value="MT">MT</option>
+            <option value="PA">PA</option>
+            <option value="PB">PB</option>
+            <option value="PE">PE</option>
+            <option value="PI">PI</option>
+            <option value="PR">PR</option>
+            <option value="RJ">RJ</option>
+            <option value="RN">RN</option>
+            <option value="RS" selected>RS</option>
+            <option value="RO">RO</option>
+            <option value="RR">RR</option>
+            <option value="SC">SC</option>
+            <option value="SE">SE</option>
+            <option value="SP">SP</option>
+            <option value="TO">TO</option>
+         </select>
+    </div>
+      </div>
+      
+    </form>
+   
+
+    <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+    <i class="material-icons right">send</i>
+  </button>
+
+  <button class="btn waves-effect waves-light" type="reset" name="action">Apagar
+    <i class="material-icons right">send</i>
+  </button>
+
+    
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="js/materialize.js"></script>
+
+  </body>
+  </html>
