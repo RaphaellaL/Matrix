@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VueJS Basics</title>
+    <link rel="stylesheet" href="css/materialize.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.js"></script>
+    <script type="text/javascript" scr="vue.js"></script>
+    
+</head>
+
+<body>	
+	
+	<div class="card-panel teal lighten-3"><big><big><big><big><b><center>Ficha de Inscrição</b></big></big></big></big></center></div>
+		<div class="container" id="app">
+		<br>
+                <span>Email</span>
+		<input v-model="app" placeholder="xxxxx@xxxx.com.br" type="text"  id="email"/>	<br>
+
+                   <span>Nome</span>
+        <input v-model="app" type="text" /> <br>
+
+          <span>Sexo</span>
+    <select  class="browser-default" v-model="selected" id="sexo">
+    <option disabled value=""disabled selected></option>
+    <option>Masculino</option>
+    <option>Feminino</option>
+     </select>
+<br>
+         <span>Curso</span>
+    <select class="browser-default" v-model="nome" id="curso">
+    <option disabled value=""disabled selected></option>
+    <option>Técnico em Informatica </option>
+    <option>Técnico em Alimentos </option>
+    <option>Técnico em Agropecuária </option>
+     </select> <br>
+
+         <span>Correspondencia</span>
+ <input v-model="app" type="text" id="correspondencia"/>
+<br>
+         <span>Cep</span>
+<input v-model="app" placeholder="000000-00" type="text" id="cep"/>
+<br>
+      <span>Municipio</span>
+<input v-model="app" placeholder="ex:Rio de Janeiro" type="text" id="municipio"/>
+          <br>
+
+             <span>uf</span>
+    <select class="browser-default" v-model="selected" id="uf">
+    <option value="" disabled selected></option>
+    <option value="AC">AC</option>
+    <option value="AL">AL</option>
+    <option value="AM">AM</option>
+    <option value="AP">AP</option>
+     <option value="BA">BA</option>
+     <option value="CE">CE</option>
+     <option value="DF">DF</option>
+    <option value="ES">ES</option>
+     <option value="GO">GO</option>
+    <option value="MA">MA</option>
+     <option value="MG">MG</option>
+     <option value="MS">MS</option>
+     <option value="MT">MT</option>
+    <option value="PA">PA</option>
+     <option value="PB">PB</option>
+     <option value="PE">PE</option>
+    <option value="PI">PI</option>
+     <option value="PR">PR</option>
+     <option value="RJ">RJ</option>
+     <option value="RN">RN</option>
+     <option value="RS" selected>RS</option>
+     <option value="RO">RO</option>
+     <option value="RR">RR</option>
+     <option value="SC">SC</option>
+     <option value="SE">SE</option>
+     <option value="SP">SP</option>
+     <option value="TO">TO</option>
+         </select>
+        
+        <button class="btn waves-effect waves-light"  id="btnSalvar" @click = "salvar">Salvar </button>
+		
+	</div>
+	
+	 
+	
+</body>
+</html>
