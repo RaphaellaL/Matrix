@@ -12,9 +12,9 @@
   curso:"",
         cursos:[
             {text:"",value:""},
-            {text:"T√©cnico em Informatica",value:"informatica"},
-            {text:"T√©cnico em Alimentos",value:"alimento"},
-            {text:"T√©cnico  em Agropecu√°ria",value:"agropecu√°ria"},
+            {text:"TÈcnico em Informatica",value:"informatica"},
+            {text:"TÈcnico em Alimentos",value:"alimento"},
+            {text:"TÈcnico  em Agropecu·ria",value:"agropecu·ria"},
         ],
   endereco:"",
   complemento:"",
@@ -73,7 +73,7 @@
   },
  
  mounted: function(){
-  if(localStorage.getItem("cadastro") !== null){  //se o cadastro estiver completo fa√ßa 
+  if(localStorage.getItem("cadastro") !== null){  //se o cadastro estiver completo faÁa 
    var dadosCadastro = JSON.parse(localStorage.getItem("cadastro")); 
    this.email = dadosCadastro.email;
    this.nome = dadosCadastro.nome;
